@@ -559,9 +559,13 @@
       </div>
 
       <form class="contact-form" action="https://formspree.io/f/xlgwekra" method="POST">
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Message" rows="5" required></textarea>
+
+        <input type="text" name="name" placeholder="Name" required>
+
+        <input type="email" name="email" placeholder="Email" required>
+
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+
         <button type="submit">Send Message</button>
       </form>
     </div>

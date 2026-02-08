@@ -1,599 +1,583 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Md Abdul Sattar | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Abdul Sattar | SQA & Security Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<!-- ================= NAVBAR ================= -->
-<header class="navbar">
-  <div class="nav-left">
-    <span class="logo">AS</span>
-    <span class="status-dot"></span>
-  </div>
 
-  <nav class="nav-links">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <header class="navbar" id="navbar">
+    <a href="#" class="logo">
+      <img src="icons/logo-removebg-preview (3).png" alt="AS Logo">
+    </a>
 
-  <div class="nav-right">
-    <button id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
-  </div>
-</header>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-<!-- ================= HERO SECTION ================= -->
-<section class="hero">
-  <div class="hero-wrapper">
+    <div class="nav-right" style="margin-left: 20px;">
+      <button id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
+    </div>
+  </header>
+  <!---Hero-->
+  <section class="hero">
+    <div class="hero-wrapper">
+      <div class="hero-content">
+        <p style="color: var(--color-accent); font-weight: 700; margin-bottom: 10px;">HELLO THERE, I'M</p>
+        <h1>Md Abdul <br><span class="name">Sattar</span></h1>
+        <h2 class="hero-subtitle">
+          A <span class="typing-text"></span><span class="cursor">|</span>
+        </h2>
+        <p>
+          Passionate about <span class="highlight">Cybersecurity</span>, <span class="highlight">Bug Hunting</span>, and
+          <span class="highlight">SQA</span>.
+          I build secure, reliable, and high-quality systems for the modern web.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Work</a>
+          <a href="https://drive.google.com/file/d/1lOLJC6r6ARGExz7cYDw7LL2Vhxdk1jdK/view?usp=sharing"
+            class="btn outline" target="_blank" download>Resume</a>
+        </div>
+      </div>
 
-    <!-- LEFT CONTENT -->
-    <div class="hero-content">
-      <h1>Hi, I'm <span class="name">Md Abdul Sattar</span></h1>
-
-      <h2>
-        <span class="typing-text"></span><span class="cursor">|</span>
-      </h2>
-
-      <p>
-        Passionate about cybersecurity, bug hunting, and software quality assurance.
-        I build secure, reliable, and high-quality systems.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="#projects" class="btn primary">View Projects</a>
-        <a href="resume.pdf" class="btn outline" download>Download Resume</a>
+      <div class="profile-wrapper">
+        <img src="profile1.png" alt="Md Abdul Sattar" class="profile-img">
       </div>
     </div>
+  </section>
 
-    <!-- RIGHT FLOATING IMAGE -->
-    <div class="profile-wrapper">
-  <span class="shade left"></span>
-  <span class="shade right"></span>
-
-  <img src="profile.png" alt="Md Abdul Sattar" class="profile-img">
-</div>
-
-
-  </div>
-</section>
-
-
-<!-- ================= About Me SECTION ================= -->
-<section class="about-section" id="about">
-
-  <div class="about-wrapper">
-
+  <section class="section reveal" id="about">
     <h2 class="section-title">About Me</h2>
-
     <div class="about-card">
-
-      <!-- LEFT: IMAGE -->
       <div class="about-image-box">
-        <img src="images/photo (1).png" alt="Md Abdul Sattar">
+        <img src="images/photo (1).png" alt="Profile">
       </div>
 
-      <!-- RIGHT: CONTENT -->
+      <!--------------------------------------About me------------------------------->
+
       <div class="about-content">
         <p>
-I am a dedicated Software Quality Assurance (SQA) enthusiast with a strong passion
-for building reliable, secure, and high-performance software systems. I enjoy
-exploring the art of software testing with curiosity and precision, ensuring that
-applications not only function correctly but also deliver seamless and user-friendly
-experiences. My approach to quality assurance focuses on identifying potential risks
-early, improving usability, and maintaining consistency across different platforms
-and environments.
-</p>
+          I am a dedicated <span class="highlight">Software Quality Assurance (SQA)</span> enthusiast with a strong
+          passion
+          for building reliable, secure, and high-performance software systems. My approach focuses on identifying
+          potential risks early and ensuring seamless user experiences.
+        </p>
         <p>
-Alongside quality assurance, I have hands-on experience in cybersecurity practices,
-including vulnerability assessment, penetration testing, and security research.
-I actively work with modern tools and methodologies to simulate real-world attack
-scenarios, uncover security flaws, and provide actionable remediation strategies.
-I am a proactive team player who believes in continuous learning, staying updated
-with emerging technologies and industry trends, and contributing to projects that
-prioritize security, quality, and long-term maintainability.
-</p>
-
-        <!-- STATS -->
+          Alongside QA, I specialize in <span class="highlight">Cybersecurity</span>, including vulnerability assessment
+          and penetration testing. I
+          actively use tools like Burp Suite to uncover security flaws and provide actionable remediation strategies.
+        </p>
         <div class="about-stats">
           <div>
-            <h3>2024 - Present</h3>
+            <h3>2+ Years</h3>
             <span>Experience</span>
           </div>
-
           <div>
             <h3>50+</h3>
             <span>Vulnerabilities Found</span>
           </div>
+          <div>
+            <h3>10+</h3>
+            <span>Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------Skills------------------------------->
+
+  <section id="skills" class="section reveal">
+    <h2 class="section-title">Technical Arsenal</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Testing & QA</h3>
+        </div>
+
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Test Automation</p>
+              <p class="percent">Expert</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 90%"></span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Manual Testing</p>
+              <p class="percent">Expert</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 95%"></span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>API Testing</p>
+              <p class="percent">Advanced</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 85%"></span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Performance Testing</p>
+              <p class="percent">Intermediate</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 70%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Security</h3>
+        </div>
+
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Web Security Testing</p>
+              <p class="percent">Advanced</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 88%"></span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Vulnerability Assessment</p>
+              <p class="percent">Advanced</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 85%"></span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Penetration Testing</p>
+              <p class="percent">Intermediate</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 75%"></span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>OWASP Standards</p>
+              <p class="percent">Advanced</p>
+            </div>
+            <div class="bar-container">
+              <span class="bar" style="width: 90%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Tools & Technologies</h3>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+              class="tool-logo" alt="Selenium">
+            Selenium
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.simpleicons.org/cypress/17202C" class="tool-logo" alt="Cypress">
+            Cypress
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" class="tool-logo"
+              alt="Postman">
+            Postman
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.simpleicons.org/apachejmeter/D22128" class="tool-logo" alt="JMeter">
+            JMeter
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.simpleicons.org/burpsuite/FF6633" class="tool-logo" alt="Burp Suite">
+            Burp Suite
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" class="tool-logo"
+              alt="JIRA">
+            JIRA
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="tool-logo"
+              alt="Git">
+            Git
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" class="tool-logo"
+              alt="Jenkins">
+            Jenkins
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="tool-logo"
+              alt="Docker">
+            Docker
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-header">
+          <h3>Programming</h3>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="tool-logo"
+              alt="Python">
+            Python
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              class="tool-logo" alt="JavaScript">
+            JavaScript
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="tool-logo"
+              alt="Java">
+            Java
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" class="tool-logo"
+              alt="Bash">
+            Bash
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="tool-logo"
+              alt="SQL">
+            SQL
+          </div>
+          <div class="tool-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="tool-logo"
+              alt="HTML/CSS">
+            HTML/CSS
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <!--------------------------------------What I Do ------------------------------->
+
+  <section class="section reveal" id="doing">
+    <h2 class="section-title">What I Do</h2>
+    <div class="doing-grid">
+      <div class="doing-card">
+        <div class="doing-icon">🐛</div>
+        <h3>Bug Hunting</h3>
+        <p>Searching for security vulnerabilities in web applications and responsibly disclosing them to strengthen
+          defenses.</p>
+      </div>
+      <div class="doing-card">
+        <div class="doing-icon">🔐</div>
+        <h3>Penetration Testing</h3>
+        <p>Simulating cyberattacks on your systems to identify weak points before malicious hackers do.</p>
+      </div>
+      <div class="doing-card">
+        <div class="doing-icon">✔️</div>
+        <h3>QA Engineering</h3>
+        <p>Ensuring your software is bug-free, user-friendly, and meets the highest quality standards before launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------Academic Section------------------------------>
+
+  <section id="academic" class="section reveal">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="edu-card">
+        <div class="edu-top">
+          <div class="logo-box"><img src="icons/comilla_university.jpg" alt="Uni"></div>
+          <div>
+            <h3>Comilla University</h3>
+            <p class="degree">BSc. in Computer Science & Engineering</p>
+          </div>
+        </div>
+        <p class="date">Feb 2022 — July 2026</p>
+        <div class="badge">CGPA: 3.30</div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-top">
+          <div class="logo-box"><img src="images/Abdul_Kadir_Mollah_City_College_Logo.png" alt="College"></div>
+          <div>
+            <h3>Abdul Kadir Mollah City College</h3>
+            <p class="degree">Higher Secondary Certificate (HSC)</p>
+          </div>
+        </div>
+        <p class="date">July 2018 — June 2020</p>
+        <div class="badge">GPA: 5.00</div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------Projects------------------------------->
+
+  <section class="section reveal" id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="project-grid">
+
+      <a href="https://github.com/AbdulSattarNayan/HumanityHub" class="project-card" target="_blank">
+        <div class="project-img-box">
+          <img src="images/humanityHub.png" alt="Humanity Hub">
+        </div>
+        <div class="project-content">
+          <h3>Humanity Hub</h3>
+          <p class="subtitle">Database Management System</p>
+          <div class="tags">
+            <span>Database</span><span>Full Stack</span><span>project</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="project-card">
+        <div class="project-img-box">
+          <img src="images/" alt="Manual Testing project">
+        </div>
+        <div class="project-content">
+          <h3>Medex Testing</h3>
+          <p class="subtitle">Manual Testing & Bug Reports</p>
+          <div class="tags">
+            <span>Jira</span><span>Test Plans</span><span>QA</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://github.com/AbdulSattarNayan/Shark" class="project-card" target="_blank">
+        <div class="project-img-box">
+          <img src="images/shark.png" alt="Shark Tracker">
+        </div>
+        <div class="project-content">
+          <h3>Shark </h3>
+          <p class="subtitle">Travel Expense Manager</p>
+          <div class="tags">
+            <span>Full Stack</span><span>Database</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://github.com/AbdulSattarNayan/Malicious_Link_Detector" class="project-card" target="_blank">
+        <div class="project-img-box">
+          <img src="images/malware_link_ditector.png" alt="ML Detector">
+        </div>
+        <div class="project-content">
+          <h3>Malicious Link Detector</h3>
+          <p class="subtitle">Machine Learning Security Tool</p>
+          <div class="tags">
+            <span>Python</span><span>Scikit-Learn</span><span>Security</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!--------------------------------------certificate------------------------------->
+
+  <section id="certifications" class="cert-section reveal">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/introduction_to_cip.png" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>Certified Cybersecurity Educator Professional</h3>
+          <p class="issuer">EC-Council</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://verify-link.com" target="_blank">Verify ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/EWU-Robofest.jpg" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>National RoboFest 2024 – CTF Competition</h3>
+          <p class="issuer">East West University</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://www.ewubd.edu/news/bangladeshs-largest-national-robotic-festival-2024-ends-vibrant-ceremony"
+            target="_blank">Verify ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/Phoenix ctf 2025.jpg" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>Phoenix Summit CTF 2025 – Capture The Flag Competitor</h3>
+          <p class="issuer">Team Phoenix</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://threatsims.com/user/certificates/76770429-2287-4130-bba9-32a60452a14b" target="_blank">Verify
+            ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/APAC-Training.jpg" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>APAC Cyber Hygiene & Safety Training Completion Certificate</h3>
+          <p class="issuer">APAC Cybersecurity Fund</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://verify-link.com" target="_blank">Verify ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/SMP-CyberExpo CTF.jpg" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>SMP CyberExpo CTF 2024-Team-Based Security Competition</h3>
+          <p class="issuer">SMP Cybersecurity</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://verify-link.com" target="_blank">Verify ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/volunteer.jpeg" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>Outstanding Volunteer Leadership & Event Support - CSE Fiesta 2022</h3>
+          <p class="issuer">Comilla University</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://www.cou.ac.bd/" target="_blank">Verify ↗</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="img-wrapper">
+          <img src="images/THM- Advent of Cyber 2024.jpg" onclick="openModal(this.src)">
+        </div>
+        <div class="cert-info">
+          <h3>THM Advent of Cyber 2024 Completion Certificate</h3>
+          <p class="issuer">TryHackMe</p>
+          <span>Nov 23, 2025</span>
+          <a href="https://tryhackme.com/certificate/THM-1IOPF7VYZW" target="_blank">Verify ↗</a>
         </div>
       </div>
 
     </div>
+  </section>
+
+  <!-------------------------------------- Contact ------------------------------->
+
+  <section class="section reveal" id="contact">
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Get in touch</h3>
+        <p style="color:var(--color-text-muted); margin-bottom: 30px;">
+          I'm currently looking for internships and entry-level opportunities in SQA or Cyber Security.
+        </p>
+
+        <div class="contact-list">
+
+          <div class="contact-item">
+            <div class="icon-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-mail">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <h4>Email</h4>
+            </div>
+            <a href="mailto:mdabdulsattarnayan@gmail.com" class="contact-value">
+              mdabdulsattarnayan@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-map-pin">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <h4>Location</h4>
+            </div>
+            <p class="contact-value">Dhaka, Bangladesh</p>
+          </div>
 
-  </div>
-
-</section>
-
-
-
-  <!-- Skills -->
-  <section id="skills" class="skills-section">
-
-  <h2>Skills & Expertise</h2>
-
-  <div class="skills-grid">
-
-    <!-- SQA -->
-    <div class="skill-card">
-      <h3>SQA & Testing</h3>
-      <ul>
-        <li>Manual Testing</li>
-        <li>Test Automation</li>
-        <li>Selenium</li>
-        <li>Test Planning</li>
-        <li>Bug Reporting</li>
-        <li>Regression Testing</li>
-      </ul>
-    </div>
-
-    <!-- Cybersecurity -->
-    <div class="skill-card">
-      <h3>Cybersecurity</h3>
-      <ul>
-        <li>Penetration Testing</li>
-        <li>Bug Hunting</li>
-        <li>Vulnerability Assessment</li>
-        <li>OWASP</li>
-        <li>Ethical Hacking</li>
-        <li>Security Research</li>
-      </ul>
-    </div>
-
-    <!-- Tools -->
-    <div class="skill-card">
-      <h3>Tools & Technologies</h3>
-      <ul>
-        <li>Postman</li>
-        <li>Burp Suite</li>
-        <li>Git</li>
-        <li>Linux</li>
-        <li>Docker</li>
-        <li>Jenkins</li>
-      </ul>
-    </div>
-
-    <!-- Programming -->
-    <div class="skill-card">
-      <h3>Programming</h3>
-      <ul>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>HTML/CSS</li>
-        <li>SQL</li>
-        <li>Bash</li>
-        
-      </ul>
-    </div>
-
-  </div>
-
-</section>
-<!-- ================= What I'm Doing SECTION ================= -->
-<section class="doing-section" id="doing">
-  <h2 class="section-title">What I'm Doing</h2>
-
-  <div class="doing-grid">
-
-    <!-- Bug Hunting -->
-    <div class="doing-card">
-      <div class="doing-icon">🐛</div>
-      <h3>Bug Hunting</h3>
-      <p>
-        Passionate bug hunter with a keen eye for discovering security
-        vulnerabilities in web applications. Focused on ethical hacking
-        and responsible disclosure to help organizations strengthen defenses.
-      </p>
-    </div>
-
-    <!-- Penetration Testing -->
-    <div class="doing-card">
-      <div class="doing-icon">🔐</div>
-      <h3>Penetration Testing</h3>
-      <p>
-        Penetration tester specializing in identifying security weaknesses
-        in web applications. Dedicated to improving cybersecurity through
-        vulnerability assessment and controlled exploitation techniques.
-      </p>
-    </div>
-
-    <!-- Manual Testing -->
-    <div class="doing-card">
-      <div class="doing-icon">✔️</div>
-      <h3>Manual Testing</h3>
-      <p>
-        Strong interest in Software Quality Assurance (SQA) with hands-on
-        experience in test case design, exploratory testing, and defect
-        reporting to ensure reliable and user-friendly software.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ================= ACADEMIC SECTION ================= -->
-
-<section id="academic" class="academic-section">
-
-  <h2>Academic Life</h2>
-
-  <div class="timeline">
-
-    <!-- University -->
-    <div class="edu-card">
-
-  <!-- logo + title row -->
-  <div class="edu-top">
-
-    <div class="logo-box">
-      <img src="images/comilla_university.png">
-    </div>
-
-    <div class="edu-text">
-      <h3>Comilla University</h3>
-      <p class="degree">BSc. in Engineering</p>
-    </div>
-
-  </div>
-
-  <!-- rest -->
-  <p class="dept">Computer Science & Engineering</p>
-
-  <p class="date">
-    <span class="dot"></span>
-    February 2022 — July 2026
-  </p>
-
-  <div class="badge">CGPA: 3.30</div>
-
-</div>
-
-
-    <!-- College -->
-
-    <div class="edu-card">
-
-  <!-- logo + title row -->
-  <div class="edu-top">
-
-    <div class="logo-box">
-      <img src="images/Abdul_Kadir_Mollah_City_College_Logo.png">
-    </div>
-
-    <div class="edu-text">
-      <h3>Abdul Kadir Mollah City College</h3>
-      <p class="degree">Higher Secondary Certificate (HSC)</p>
-    </div>
-
-  </div>
-
-  <!-- rest -->
-  <p class="dept">Science </p>
-
-  <p class="date">
-    <span class="dot"></span>
-    July 2018 — June 2020
-  </p>
-
-  <div class="badge">GPA: 5.00</div>
-
-</div>
-
-</section>
-
-
-
-  <!-- Projects -->
-   <!-- Database Project Card -->
-<section class="projects" id ="projects">
-
-  <h2 class="section-title">Projects</h2>
-
-  <div class="project-grid">
-
-     <a href="https://github.com/yourusername/project" class="project-card" target="_blank"
-   rel="noopener noreferrer">
-
-  <div class="project-img-box">
-    <img src="images/humanityHub.png" alt="Project Screenshot">
-  </div>
-
-  <div class="project-content">
-    <h3>Humanity Hub</h3>
-    <p class="subtitle">Database Management Project</p>
-
-    <div class="tags">
-      <span>Database</span>
-      <span>Full-Stack</span>
-      <span>Project</span>
-    </div>
-  </div>
-
-</a>
-<!-- Manual Testng Project Card -->
-      <a href="https://github.com/AbdulSattarNayan/Malicious_Link_Detector"  target="_blank"
-   rel="noopener noreferrer" class="project-card">
-
-  <div class="project-img-box">
-    <img src="images/malicious_link_detector.png" alt="Project Screenshot">
-  </div>
-
-  <div class="project-content">
-    <h3>Medex Manual Testing Project</h3>
-    <p class="subtitle">Test case, Test plan, Bug reporting</p>
-
-    <div class="tags">
-      <span>QA</span>
-      <span>Testing</span>
-      <span>Project</span>
-    </div>
-  </div>
-
-</a>
-
-
-<!-- Database Project Card -->
-
-      <a href="https://github.com/AbdulSattarNayan/Malicious_Link_Detector"  target="_blank"
-   rel="noopener noreferrer" class="project-card">
-
-  <div class="project-img-box">
-    <img src="images/shark.png" alt="Project Screenshot">
-  </div>
-
-  <div class="project-content">
-    <h3>Shark ( A Travel budget Tracker )</h3>
-    <p class="subtitle">Database Management Project</p>
-
-    <div class="tags">
-      <span>Database</span>
-      <span>Full-Stack</span>
-      <span>Project</span>
-    </div>
-  </div>
-
-</a>
-
-<!-- Mechine learning Project Card -->
-     <a href="https://github.com/AbdulSattarNayan/Malicious_Link_Detector"  target="_blank"
-   rel="noopener noreferrer" class="project-card">
-
-  <div class="project-img-box">
-    <img src="images/malware_link_ditector.png" alt="Project Screenshot">
-  </div>
-
-  <div class="project-content">
-    <h3>Malicious Link Detector</h3>
-    <p class="subtitle">Machine Learning Project</p>
-
-    <div class="tags">
-      <span>Machine Learning</span>
-      <span>Python</span>
-      <span>Project</span>
-    </div>
-  </div>
-
-</a>
-
-
-  </div>
-
-</section>
-
-
-  <!-- ================= CERTIFICATES ================= -->
-<section id="certifications" class="cert-section">
-
-  <h2>Certifications</h2>
-
-  <div class="cert-grid">
-
-    <!-- CIP -->
-    <div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/introduction_to_cip.png" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>Certified Cybersecurity Educator Professional</h3>
-        <p class="issuer">EC-Council</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://verify-link.com" target="_blank">Verify ↗</a>
-      </div>
-
-    </div>
-
-    <!-- EWU CTF -->
-<div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/EWU-Robofest.jpg" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>National RoboFest 2024 – CTF Competition</h3>
-        <p class="issuer">East West University</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://www.ewubd.edu/news/bangladeshs-largest-national-robotic-festival-2024-ends-vibrant-ceremony" target="_blank">Verify ↗</a>
-      </div>
-
-<!-- Phonix Summit -->
-    </div>
-    <div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/Phoenix ctf 2025.jpg" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>Phoenix Summit CTF 2025 – Capture The Flag Competitor</h3>
-        <p class="issuer">Team Phoenix</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://threatsims.com/user/certificates/76770429-2287-4130-bba9-32a60452a14b" target="_blank">Verify ↗</a>
-      </div>
-    </div>
-
-<!-- APAC Training -->
-    <div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/APAC-Training.jpg" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>APAC Cyber Hygiene & Safety Training Completion Certificate</h3>
-        <p class="issuer">APAC Cybersecurity Fund</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://verify-link.com" target="_blank">Verify ↗</a>
-      </div>
-
-<!-- SMP CyberExpo -->
-    </div>
-    <div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/SMP-CyberExpo CTF.jpg" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>SMP CyberExpo CTF 2024-Team-Based Security Competition</h3>
-        <p class="issuer">SMP Cybersecurity</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://verify-link.com" target="_blank">Verify ↗</a>
-      </div>
-    </div>
-
-    <!-- Volunteer -->
-    <div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/volunteer.jpeg" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>Outstanding Volunteer Leadership & Event Support - CSE Fiesta 2022, Comilla University</h3>
-        <p class="issuer">Comilla University</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://www.cou.ac.bd/" target="_blank">Verify ↗</a>
-      </div>
-    </div>
-
-    <!-- THM -->`
-    <div class="cert-card">
-
-      <div class="img-wrapper">
-        <img src="images/THM- Advent of Cyber 2024.jpg" onclick="openModal(this.src)">
-      </div>
-
-      <div class="cert-info">
-        <h3>THM Advent of Cyber 2024 Completion Certificate</h3>
-        <p class="issuer">TryHackMe</p>
-        <span>Nov 23, 2025</span>
-
-        <!-- optional verify link -->
-        <a href="https://verify-link.com" target="_blank">Verify ↗</a>
-      </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= MODAL ================= -->
-
-<div id="imgModal" class="modal">
-
-  <div class="modal-box">
-    <span class="close" onclick="closeModal()">×</span>
-    <img id="modalImg">
-  </div>
-
-</div>
-
-
-  <!-- ================= CONTACT SECTION ================= -->
-
-<section class="contact" id="contact">
-  <h2 class="contact-title">Let's Connect</h2>
-
-  <div class="contact-wrapper">
-
-    <!-- LEFT INFO CARD -->
-    <div class="contact-info">
-
-      <!-- Email -->
-      <div class="contact-item">
-        <img src="icons/mail.png" class="icon" />
-        <div class="info-text">
-          <h4>Email</h4>
-          <a href="mailto:mdabdulsattarnayan@gmail.com">
-            mdabdulsattarnayan@gmail.com
-          </a>
         </div>
-      </div>
 
-      <!-- Location -->
-      <div class="contact-item">
-        <img src="icons/location.png" class="icon" />
-        <div class="info-text">
-          <h4>Location</h4>
-          <p>Dhaka, Bangladesh</p>
+        <h4 class="find-me">Find me on</h4>
+        <div class="socials">
+          <a href="#"><img src="icons/linkedin.png"></a>
+          <a href="#"><img src="icons/github.png"></a>
+          <a href="#"><img src="icons/thm.png"></a>
+          <a href="#"><img src="icons/facebook.png"></a>
         </div>
+
       </div>
 
-      <!-- Socials -->
-      <h4 class="find-me">Find Me</h4>
-
-      <div class="socials">
-        <a href="#"><img src="icons/linkedin.png"></a>
-        <a href="#"><img src="icons/github.png"></a>
-        <a href="#"><img src="icons/facebook.png"></a>
-        <a href="#"><img src="icons/thm.png"></a>
-      </div>
-
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
+  </section>
 
-
-    <!-- RIGHT FORM -->
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-
+  <div id="imgModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-box">
+      <img id="modalImg">
+    </div>
   </div>
-</section>
+  <footer class="footer">
+    <p>&copy; 2026 Md Abdul Sattar . All rights reserved.</p>
+  </footer>
 
-
-
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

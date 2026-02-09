@@ -98,8 +98,12 @@ body {
 .highlight {
   font-weight: 700;
   /* Makes text Bold */
-  color: black;
+  color: rgb(0, 0, 0);
   /* Uses your new #005F02 Green */
+}
+
+body.dark .highlight {
+  color: #ffffff;
 }
 
 /* ================= NAVBAR ================= */
@@ -1238,4 +1242,11 @@ body.dark .badge {
   border-radius: 100%;
   display: block !important;
   /* Forces it to show no matter what */
+}
+
+/* ================= SOCIAL ICONS DARK MODE FIX ================= */
+
+/* Target images inside the .socials div only when Dark Mode is active */
+body.dark .socials img {
+  filter: invert(1) brightness(100%);
 }

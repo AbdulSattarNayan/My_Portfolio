@@ -474,7 +474,7 @@ body.dark .logo img {
 .about-card {
   display: flex;
   gap: 50px;
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
   align-items: center;
 }

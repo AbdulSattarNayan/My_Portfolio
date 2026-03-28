@@ -476,7 +476,7 @@ body.dark .logo img {
   gap: 50px;
 
   /* Changed these two lines: */
-  width: 90%;
+  width: 80%;
   /* Gives some breathing room on small screens */
   max-width: 1100px;
   /* Stops the card from stretching too far on huge screens */

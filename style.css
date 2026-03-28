@@ -471,15 +471,21 @@ body.dark .logo img {
 }
 
 /* ================= ABOUT SECTION ================= */
-
 .about-card {
   display: flex;
   gap: 50px;
-  max-width: 75%;
+
+  /* Changed these two lines: */
+  width: 90%;
+  /* Gives some breathing room on small screens */
+  max-width: 1100px;
+  /* Stops the card from stretching too far on huge screens */
+
   margin: 20px auto;
-  /* <-- This is the magic fix! */
   align-items: center;
 }
+
+
 
 .about-image-box img {
   border-radius: var(--radius-lg);

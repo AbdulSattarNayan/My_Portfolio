@@ -1250,3 +1250,15 @@ body.dark .badge {
 body.dark .socials img {
   filter: invert(1) brightness(100%);
 }
+
+/* ================= MOBILE VIEW FIX FOR CONTACT SECTION ================= */
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    /* This forces them onto different rows */
+    gap: 40px;
+    /* Adds space between the info and the form */
+  }
+}

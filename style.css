@@ -474,8 +474,8 @@ body.dark .logo img {
 .about-card {
   display: flex;
   gap: 50px;
-  max-width: 90%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 20px;
   align-items: center;
 }
 
@@ -615,6 +615,7 @@ body.dark .logo img {
 .edu-card {
   margin-bottom: 40px;
   margin-left: 30px;
+  margin-right: 20px;
   position: relative;
 }
 
